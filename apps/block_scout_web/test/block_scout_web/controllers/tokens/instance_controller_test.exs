@@ -20,7 +20,7 @@ defmodule BlockScoutWeb.Tokens.InstanceControllerTest do
       assert conn.status == 302
     end
 
-    test "works for ERC-1155 tokens", %{conn: conn} do
+    test "works for RAMA-1155 tokens", %{conn: conn} do
       contract_address = insert(:address)
 
       insert(:token, contract_address: contract_address)

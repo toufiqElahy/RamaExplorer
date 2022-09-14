@@ -517,7 +517,7 @@ defmodule Explorer.Factory do
       total_supply: 1_000_000_000,
       decimals: 18,
       contract_address: build(:address),
-      type: "ERC-20",
+      type: "RAMA-20",
       cataloged: true
     }
   end
@@ -715,7 +715,7 @@ defmodule Explorer.Factory do
       block_number: block_number(),
       value: Enum.random(1..100_000),
       value_fetched_at: DateTime.utc_now(),
-      token_type: "ERC-20"
+      token_type: "RAMA-20"
     }
   end
 

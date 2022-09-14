@@ -43,12 +43,12 @@ defmodule Explorer.Chain.TokenTransfer do
   * `:to_address_hash` - Address hash foreign key
   * `:token_contract_address` - The `t:Explorer.Chain.Address.t/0` of the token's contract.
   * `:token_contract_address_hash` - Address hash foreign key
-  * `:token_id` - ID of the token (applicable to ERC-721 tokens)
+  * `:token_id` - ID of the token (applicable to RAMA-721 tokens)
   * `:transaction` - The `t:Explorer.Chain.Transaction.t/0` ledger
   * `:transaction_hash` - Transaction foreign key
   * `:log_index` - Index of the corresponding `t:Explorer.Chain.Log.t/0` in the transaction.
-  * `:amounts` - Tokens transferred amounts in case of batched transfer in ERC-1155
-  * `:token_ids` - IDs of the tokens (applicable to ERC-1155 tokens)
+  * `:amounts` - Tokens transferred amounts in case of batched transfer in RAMA-1155
+  * `:token_ids` - IDs of the tokens (applicable to RAMA-1155 tokens)
   """
   @type t :: %TokenTransfer{
           amount: Decimal.t() | nil,
@@ -147,7 +147,7 @@ defmodule Explorer.Chain.TokenTransfer do
   def erc1155_batch_transfer_signature, do: @erc1155_batch_transfer_signature
 
   @doc """
-  ERC 20's transfer(address,uint256) function signature
+  RAMA 20's transfer(address,uint256) function signature
   """
   def transfer_function_signature, do: @transfer_function_signature
 
@@ -307,7 +307,7 @@ defmodule Explorer.Chain.TokenTransfer do
 
   @doc """
   Innventory tab query.
-  A token ERC-721 is considered unique because it corresponds to the possession
+  A token RAMA-721 is considered unique because it corresponds to the possession
   of a specific asset.
 
   To find out its current owner, it is necessary to look at the token last

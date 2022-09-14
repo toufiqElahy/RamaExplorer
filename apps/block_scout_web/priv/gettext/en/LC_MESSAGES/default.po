@@ -845,17 +845,17 @@ msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:214
 #, elixir-autogen, elixir-format
-msgid "ERC-1155 "
+msgid "RAMA-1155 "
 msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:212
 #, elixir-autogen, elixir-format
-msgid "ERC-20 "
+msgid "RAMA-20 "
 msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:213
 #, elixir-autogen, elixir-format
-msgid "ERC-721 "
+msgid "RAMA-721 "
 msgstr ""
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:1
@@ -1273,7 +1273,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:297
 #, elixir-autogen, elixir-format
-msgid "List of ERC-1155 tokens created in the transaction."
+msgid "List of RAMA-1155 tokens created in the transaction."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:281
@@ -1800,7 +1800,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:59
 #, elixir-autogen, elixir-format
-msgid "Shows the tokens held in the address (includes ERC-20, ERC-721 and ERC-1155)."
+msgid "Shows the tokens held in the address (includes RAMA-20, RAMA-721 and RAMA-1155)."
 msgstr ""
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:66
