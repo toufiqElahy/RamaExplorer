@@ -348,7 +348,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgid "Ramascan is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for EVM Networks."
 msgstr ""
 
 #: lib/block_scout_web/templates/block/_tile.html.eex:64
